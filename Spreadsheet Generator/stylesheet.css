@@ -1,0 +1,62 @@
+body {
+    background-color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 5px 5px 5px 5px;
+}
+
+th {
+    background-color: cornflowerblue;
+    color: gray;
+    padding: 5px 5px 5px 5px;
+}
+
+tr {
+    background-color: white;
+    padding: 5px 5px 5px 5px;
+    border: solid 1px black;
+}
+
+td {
+    padding: 5px 5px 5px 5px;
+    border: solid 1px black;
+    text-align: center;
+}
+
+button {
+    border: none;
+    background-color: rgba(125, 125, 125, .25);
+    color: white;
+    padding: 5px 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgba(125, 125, 125, .50);
+}
+
+button:active {
+    background-color: rgba(125, 125, 125, .75);
+}
+
+.tableHeader {
+    background-color: #212121;
+    color: #F1F1F1;
+}
+
+.highlighted {
+    background-color: yellow;
+    border-collapse: collapse;
+}
+
+.tableDiv {
+    background-color: darkslategray;
+    color: lightgray;
+}
